@@ -8,3 +8,10 @@ components:
           example: Internal server error
       required:
         - message
+    Hello:
+      type: object
+      message:
+        type: string
+        example: Hello World!
+      required:
+        - message
